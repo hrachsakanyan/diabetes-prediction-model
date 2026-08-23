@@ -320,4 +320,8 @@ in the repository, so no additional download is needed.
 └── README.md
 ```
 
----
+## Disclaimer
+
+This project is intended for educational and research purposes only. It is not a medical device and should not be used to diagnose diabetes, make treatment decisions, or replace evaluation by a qualified healthcare professional.
+
+The reported performance is based on a single public dataset that appears to be synthetic or heavily processed and therefore should not be interpreted as evidence of clinical performance in real-world populations.
