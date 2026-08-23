@@ -43,7 +43,7 @@ place, these rows would leak between the train and test splits and inflate the r
 
 Two columns encode "unknown" as if it were real data:
 
-**`smoking_history` — the `"No Info"` category (35,816 rows, 35.8%).**
+**`smoking_history` — the `"No Info"` category (35,816 rows, 35.8%).** 
 This is a missing value wearing a category label. Two pieces of evidence confirm it is not a
 meaningful group:
 
