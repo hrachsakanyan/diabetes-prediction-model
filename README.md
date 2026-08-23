@@ -321,19 +321,3 @@ in the repository, so no additional download is needed.
 ```
 
 ---
-
-## What I Learned
-
-- **A dataset reporting zero nulls can still be full of missing data.** The most consequential
-  problems here — imputed BMI values and a `"No Info"` category — were invisible to
-  `isnull().sum()` and only appeared when individual columns were checked against what their
-  values should plausibly look like.
-- **Statistical rules flag candidates; domain context makes the decision.** The IQR rule marked
-  3,343 HbA1c and glucose values as outliers. Every one of them belonged to a diabetic patient.
-  Removing them automatically would have deleted the strongest signal in the dataset.
-- **Accuracy is the wrong headline metric for an imbalanced problem.** 95.9% accuracy sounds
-  strong until you notice that always predicting "healthy" scores 91.2%, and that the model
-  missed 36% of actual diabetes cases.
-- **Model choice is a trade-off, not an optimization.** Neither version is objectively better —
-  the answer depends on whether a missed diagnosis or an unnecessary follow-up test is the more
-  costly mistake.
