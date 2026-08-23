@@ -320,7 +320,7 @@ in the repository, so no additional download is needed.
 └── README.md
 ```
 
-## Disclaimer
+## Disclaimer📌
 
 This project is intended for educational and research purposes only. It is not a medical device and should not be used to diagnose diabetes, make treatment decisions, or replace evaluation by a qualified healthcare professional.
 
