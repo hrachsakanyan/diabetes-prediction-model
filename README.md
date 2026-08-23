@@ -1,4 +1,4 @@
-# Diabetes Prediction with Logistic Regression
+# Diabetes Prediction with Logistic Regression🩺
 
 A binary classification project that predicts whether a patient has diabetes from routine clinical
 and demographic measurements. The emphasis of this project is on **auditing the dataset before
